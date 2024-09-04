@@ -1,11 +1,13 @@
 body {
     color: aliceblue;
     background-color: rgb(32, 32, 32);
+    text-align: center;
     
 }
 
 .nome {
     color: darkred;
+    font-style: italic;
 }
 
 .hobbies {
@@ -25,4 +27,27 @@ h1 {
     border-style: outset;
     border-color: darkred;
     border-width: 5px;
+}
+
+.foto:hover {
+    transform: scale(1.1);
+}
+
+.link:hover {
+    color: aqua;
+}
+
+.sobre{
+    font-style: italic;
+    margin: 25px;
+    color: darkred;
+}
+
+div.container {
+    text-align: center;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: center;
 }
